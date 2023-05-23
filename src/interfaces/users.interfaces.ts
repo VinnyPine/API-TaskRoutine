@@ -3,7 +3,7 @@ import {
   userSchema,
   userRequestSchema,
   userResponseSchema,
-} from "../schemas/users.schema";
+} from "../schemas/users.schemas";
 
 type TUser = z.infer<typeof userSchema>;
 type TUserRequest = z.infer<typeof userRequestSchema>;
